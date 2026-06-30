@@ -1,1 +1,3 @@
 faster-whisper
+deep_translator
+
