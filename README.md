@@ -26,7 +26,7 @@ Tạo phụ đề tự động cho timeline trong **DaVinci Resolve Free & Studi
 ### Bước 1 — Clone hoặc tải repo
 
 ```bash
-git clone https://github.com/<your-username>/AutoCaptionVEC.git
+git clone https://github.com/zenny126/AutoCaptionVEC4DR.git
 ```
 
 hoặc tải file ZIP từ trang GitHub rồi giải nén.
