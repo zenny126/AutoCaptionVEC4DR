@@ -3,8 +3,8 @@
 AutoCaption VEC tạo phụ đề tự động cho file audio/video bằng Whisper chạy local và có thể dịch phụ đề sang ngôn ngữ khác bằng Argos Translate.
 
 Dự án bao gồm:
-- `scripts/AutoCaptionVEC.py` — ứng dụng GUI standalone (Tkinter) để tạo SRT ngay trong Windows/macOS/Linux.
-- `scripts/AutoCaptionVEC_Generate.lua` — script cho DaVinci Resolve, gọi `transcribe_local.py` để tạo phụ đề.
+- `scripts/AutoCaptionVEC.py` — ứng dụng GUI standalone (Tkinter) để tạo SRT ngay trong Windows/macOS/Linux chạy ngoài không cần thông qua DR
+- `scripts/AutoCaptionVEC4DR.lua` — script cho DaVinci Resolve, gọi `transcribe_local.py` để tạo phụ đề.
 - `scripts/transcribe_local.py` — engine xử lý speech-to-text và dịch thuật.
 
 - ✅ Hoạt động offline sau khi tải model và gói dịch lần đầu
